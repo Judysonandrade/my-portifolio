@@ -55,7 +55,7 @@ export const DraggableInspector = () => {
       <Box sx={{ p: 1.25, fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace', fontSize: { md: '0.67rem', lg: '0.72rem' }, lineHeight: 1.75 }}>
         <Typography component='div' sx={{ font: 'inherit', color: 'text.secondary' }}>// drag to reposition</Typography>
         <Typography component='div' sx={{ font: 'inherit', color: 'text.primary', mt: 0.35 }}>status: <Box component='span' sx={{ color: '#4ade80' }}>'available'</Box></Typography>
-        <Typography component='div' sx={{ font: 'inherit', color: 'text.primary' }}>stack: <Box component='span' sx={{ color: 'primary.main' }}>['React', 'UX']</Box></Typography>
+        <Typography component='div' sx={{ font: 'inherit', color: 'text.primary' }}>stack: <Box component='span' sx={{ color: 'primary.main' }}>['Python', 'Django', 'Golang', 'Automation']</Box></Typography>
       </Box>
     </Box>
   )

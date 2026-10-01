@@ -27,7 +27,7 @@ export const About = () => {
             <AutoAwesomeIcon sx={{ color: 'primary.main', fontSize: { xs: 38, md: 48 }, my: 1.5 }} />
             <Box sx={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace', fontSize: { xs: '0.82rem', sm: '0.93rem' }, lineHeight: 1.75, color: 'text.secondary' }}>
               <Typography component='div' sx={{ font: 'inherit', color: 'primary.main', fontWeight: 700 }}>const profile = {'{'}</Typography>
-              <Typography component='div' sx={{ font: 'inherit', pl: 2 }}>role: <Box component='span' sx={{ color: 'text.primary' }}>'Frontend + UX'</Box>,</Typography>
+              <Typography component='div' sx={{ font: 'inherit', pl: 2 }}>role: <Box component='span' sx={{ color: 'text.primary' }}>'Backend + IA'</Box>,</Typography>
               <Typography component='div' sx={{ font: 'inherit', pl: 2 }}>status: <Box component='span' sx={{ color: 'text.primary' }}>'available'</Box>,</Typography>
               <Typography component='div' sx={{ font: 'inherit', color: 'primary.main', fontWeight: 700 }}>{'}'}</Typography>
             </Box>

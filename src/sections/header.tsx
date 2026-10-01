@@ -55,7 +55,7 @@ export const Header = () => {
               '& .MuiChip-label::before': { content: '""', display: 'inline-block', width: 7, height: 7, mr: 1, borderRadius: '50%', backgroundColor: '#4ade80', boxShadow: '0 0 0 3px rgba(74, 222, 128, 0.12)' },
             }}
           />
-          <Box sx={{ mb: 1 }}><CodeLabel>{'<GeorgiaCarin />'}</CodeLabel></Box>
+          <Box sx={{ mb: 1 }}><CodeLabel>{'<JudysonJustino />'}</CodeLabel></Box>
           <Typography variant='h5' component='p' sx={{ color: 'text.secondary', fontWeight: 600, mb: 0.5 }}>
             {t('header.greeting')}
           </Typography>

@@ -6,11 +6,11 @@ import curriculumPdf from '../assets/Currículo.pdf'
 import miniTwitter from '../assets/mini-twitter.png'
 import resumeEnglishPdf from '../assets/Resume - English.pdf'
 
-export const SITE_OWNER_NAME = 'Geórgia Carin'
+export const SITE_OWNER_NAME = 'Judyson Justino'
 
 export const SOCIAL_LINKS = {
-  github: 'https://github.com/GeorgiaSilva',
-  linkedIn: 'https://www.linkedin.com/in/georgiacarinsilva/',
+  github: 'https://github.com/Judysonandrade',
+  linkedIn: 'https://www.linkedin.com/in/judyson-justino-82978a379/',
 } as const
 
 export const PROFILE = {

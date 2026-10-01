@@ -1,10 +1,11 @@
 import { Box, Container, Grid, Typography, useTheme as useMuiTheme } from '@mui/material'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFigma, faReact, faWordpress, faAndroid } from '@fortawesome/free-brands-svg-icons'
+import { faPython, faDocker, faGolang, faReact, faJava, faGithub} from '@fortawesome/free-brands-svg-icons'
 import type { IconDefinition } from '@fortawesome/fontawesome-svg-core'
 import { useTranslation } from 'react-i18next'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 import { CodeLabel } from '../components/codeLabel'
+import { faBrain } from '@fortawesome/free-solid-svg-icons'
 
 type Skill = { icon: IconDefinition; name: string }
 
@@ -43,8 +44,9 @@ export const Habilidade = () => {
   const { t } = useTranslation()
   const titleReveal = useScrollReveal<HTMLDivElement>()
   const skills: Skill[] = [
-    { icon: faFigma, name: 'Figma' }, { icon: faReact, name: 'React' },
-    { icon: faWordpress, name: 'WordPress' }, { icon: faAndroid, name: 'Android' },
+    { icon: faPython, name: 'Python' }, { icon: faDocker, name: 'Docker' },
+    { icon: faGolang, name: 'Golang'}, { icon: faReact, name: 'React' }, { icon: faJava, name: 'Java' }, { icon: faGithub, name: 'GitHub' },
+    { icon: faBrain, name: 'Machine Learning' }, { icon: faBrain, name: 'Deep Learning' },
   ]
 
   return (
