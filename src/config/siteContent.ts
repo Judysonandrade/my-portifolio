@@ -1,10 +1,10 @@
 ﻿import profileImage from '../assets/foto-perfil.jpeg'
-import kifomeImage from '../assets/kifome.png'
 import habitFlowLandingImage from '../assets/habitflowlanding.png'
 import pagpayImage from '../assets/pagpay.png'
 import curriculumPdf from '../assets/currículo.pdf'
 import miniTwitter from '../assets/mini-twitter.png'
 import resumeEnglishPdf from '../assets/Resume - English.pdf'
+import cozinhaLoboImage from '../assets/cozinhalobo.png'
 
 export const SITE_OWNER_NAME = 'Judyson Justino'
 
@@ -56,36 +56,56 @@ export type ProjectCard = {
 
 export const PROJECT_CARDS: ProjectCard[] = [
   {
-    title: {
-      pt: 'Ki Fome',
-      en: 'Ki Fome',
-    },
-    description: {
-      pt: 'Aplicativo de pesquisa de restaurantes, bares e lanchonetes perto de você.',
-      en: 'Restaurant, bar, and snack place discovery app near you.',
-    },
-    kind: {
-      pt: 'Aplicativo mobile',
-      en: 'Mobile application',
-    },
-    img: kifomeImage,
-    technologies: {
-      pt: 'React Native, Figma, UX Design',
-      en: 'React Native, Figma, UX Design',
-    },
-    fileName: 'ki-fome.mobile.tsx',
-    role: {
-      pt: 'UX/UI Design e desenvolvimento mobile',
-      en: 'UX/UI design and mobile development',
-    },
-    highlights: {
-      pt: ['Experiência de descoberta de restaurantes, bares e lanchonetes.', 'Protótipo e interface pensados para uma busca simples e próxima do usuário.'],
-      en: ['Restaurant, bar, and snack place discovery experience.', 'Prototype and interface designed for a simple, user-centered search.'],
-    },
-    figmaUrl: 'https://www.figma.com/proto/Y8xowrqqXgTmq9FHqk1A4C/KI-FOME?node-id=3-2&p=f&t=iStIoZGqN0aYiFAd-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1',
-    githubUrl: 'https://github.com/GeorgiaSilva/KIFOME',
-    color: '#1e1e2e',
+  title: {
+    pt: 'Cozinha Lobo',
+    en: 'Cozinha Lobo',
   },
+
+  description: {
+    pt: 'Sistema web desenvolvido para gerenciamento e apresentação dos serviços da Cozinha Lobo.',
+    en: 'Web platform developed for managing and presenting Cozinha Lobo services.',
+  },
+
+  kind: {
+    pt: 'Aplicação Web',
+    en: 'Web Application',
+  },
+
+  img: cozinhaLoboImage,
+
+  technologies: {
+    pt: 'Python, Django, JavaScript, HTML e CSS',
+    en: 'Python, Django, JavaScript, HTML and CSS',
+  },
+
+  fileName: 'cozinha-lobo.tsx',
+
+  role: {
+    pt: 'Desenvolvimento Full Stack',
+    en: 'Full Stack Development',
+  },
+
+  highlights: {
+    pt: [
+      'Desenvolvimento completo da aplicação web.',
+      'Backend desenvolvido utilizando Django.',
+      'Integração entre frontend e backend.',
+      'Deploy realizado em ambiente de produção.',
+    ],
+    en: [
+      'Full web application development.',
+      'Backend developed using Django.',
+      'Frontend and backend integration.',
+      'Production deployment.',
+    ],
+  },
+
+  githubUrl: 'https://github.com/Judysonandrade/projeto-livraria',
+
+  liveUrl: 'https://projeto-livraria-murex.vercel.app/',
+
+  color: '#1e1e2e',
+},
   {
     title: {
       pt: 'HabitFlow Landing Page',
@@ -177,4 +197,5 @@ export const PROJECT_CARDS: ProjectCard[] = [
     },
     color: '#0f172a',
   },
+  
 ]
