@@ -2,7 +2,7 @@
 import kifomeImage from '../assets/kifome.png'
 import habitFlowLandingImage from '../assets/habitflowlanding.png'
 import pagpayImage from '../assets/pagpay.png'
-import curriculumPdf from '../assets/Currículo.pdf'
+import curriculumPdf from '../assets/currículo.pdf'
 import miniTwitter from '../assets/mini-twitter.png'
 import resumeEnglishPdf from '../assets/Resume - English.pdf'
 
@@ -21,11 +21,11 @@ export const PROFILE = {
 export const RESUMES = {
   pt: {
     file: curriculumPdf,
-    downloadName: 'Currículo-Georgia-Carin.pdf',
+    downloadName: 'Currículo-Judyson Justino.pdf',
   },
   en: {
     file: resumeEnglishPdf,
-    downloadName: 'Resume-Georgia-Carin.pdf',
+    downloadName: 'Resume-Judyson Justino.pdf',
   },
 } as const
 
